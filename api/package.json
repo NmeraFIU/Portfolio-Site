@@ -2,11 +2,8 @@
   "name": "api",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://nmerafiu.github.io/Portfolio-Site/",
   "scripts": {
-    "start": "node ./bin/www",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
